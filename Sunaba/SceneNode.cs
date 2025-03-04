@@ -1,8 +1,10 @@
 ﻿namespace Sunaba;
 
-public abstract class BaseObject
+public abstract class SceneNode : IDisposable
 {
-    private List<GameNode> Children { get; set; } = new List<GameNode>();
+    private List<GameNode> _children { get; set; } = new List<GameNode>();
+    
+    public List<GameNode> Children { get => _children; }
     
     public int ChildrenCount => Children.Count;
     
@@ -12,7 +14,13 @@ public abstract class BaseObject
     {
         foreach (var node in Children)
         {
-            if (node == Children[depth]) return node;
+            if (node == Children[depth])
+            {
+                if (path[depth] == node.Name)
+                {
+                    return node;
+                }
+            }
         }
         
         return null;
@@ -34,5 +42,12 @@ public abstract class BaseObject
             paths.RemoveAt(paths.Count - 1);
         }
         return FindByList(paths, 0);
+    }
+
+    public SceneNode() { }
+
+    public void Dispose()
+    {
+        Children?.Clear();
     }
 }

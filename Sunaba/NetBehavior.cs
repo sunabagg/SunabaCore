@@ -1,6 +1,6 @@
 ﻿namespace Sunaba;
 
-public class NetBehavior
+public class NetBehavior : IDisposable
 {
     public virtual void Initialize() { }
     
@@ -15,4 +15,6 @@ public class NetBehavior
     public virtual void ExitScene() { }
     
     public virtual void Stop() { }
+    
+    public virtual void Dispose() { }
 }

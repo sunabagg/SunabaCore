@@ -7,7 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Sunaba\" />
+      <Compile Remove="Sunaba\**" />
+      <EmbeddedResource Remove="Sunaba\**" />
+      <None Remove="Sunaba\**" />
     </ItemGroup>
 
 </Project>

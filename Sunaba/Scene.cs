@@ -1,5 +1,5 @@
 ﻿namespace Sunaba;
 
-public class Scene
+public class Scene : SceneNode
 {
 }

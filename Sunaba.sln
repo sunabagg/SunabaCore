@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunaba", "Sunaba.csproj", "{FA5761D6-5EED-4763-8F0C-A447C0A70054}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunaba", "Sunaba\Sunaba.csproj", "{914B484C-5BB0-4DAE-B695-DED4619AE378}"
 EndProject
 Global
