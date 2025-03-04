@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunaba", "Sunaba.csproj", "{FA5761D6-5EED-4763-8F0C-A447C0A70054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunaba", "Sunaba\Sunaba.csproj", "{914B484C-5BB0-4DAE-B695-DED4619AE378}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA5761D6-5EED-4763-8F0C-A447C0A70054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5761D6-5EED-4763-8F0C-A447C0A70054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5761D6-5EED-4763-8F0C-A447C0A70054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5761D6-5EED-4763-8F0C-A447C0A70054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914B484C-5BB0-4DAE-B695-DED4619AE378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914B484C-5BB0-4DAE-B695-DED4619AE378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914B484C-5BB0-4DAE-B695-DED4619AE378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914B484C-5BB0-4DAE-B695-DED4619AE378}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
